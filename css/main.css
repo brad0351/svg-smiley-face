@@ -22,7 +22,7 @@
 }
 
 .smiley:hover .left-eyebrow {
-  transition: rotate(100deg);
+  transform: rotate(100deg);
 }
 
 .smiley:hover .right-eyebrow {
