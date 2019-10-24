@@ -1,6 +1,3 @@
-html {
-}
-
 .face {
   fill: gold;
 }
@@ -14,7 +11,7 @@ html {
 
 .left-eyebrow {
   transform: rotate(80deg);
-  transform-origin: 100px 82px;
+  transform-origin: 156px 82px;
   transition: all .5s linear;
 }
 
@@ -25,7 +22,7 @@ html {
 }
 
 .smiley:hover .left-eyebrow {
-  transform: rotate(100deg);
+  transition: rotate(100deg);
 }
 
 .smiley:hover .right-eyebrow {
